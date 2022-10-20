@@ -21,6 +21,7 @@ namespace Q4
                     {
                         if (5 * c + 3 * h + i/3 == 100 && c + h + i == 100)
                         {
+                            if (i % 3 == 0)
                             Console.WriteLine($"公雞買{c}隻，母雞買{h}隻，小雞買{i}隻");
                         }
                                 
